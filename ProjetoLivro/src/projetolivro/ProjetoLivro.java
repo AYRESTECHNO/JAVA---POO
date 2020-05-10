@@ -29,21 +29,21 @@ public class ProjetoLivro {
         l[1] = new Livro("POO para Iniciantes", "Pedro Paulo", 500, p[1]);
         l[2] = new Livro("Java Avançado", "Maria Candido", 800, p[0]);
         
-        //Operações com os Objetos Criados
+        //Operações com os Objetos do Primeiro Livro
         l[0].abrir();
         l[0].folhear(100);
         l[0].avancarPag();
         System.out.println(l[0].detalhes());
         
         System.out.println("-------------------------------------------------");
-        
+        //Operações com os Objetos do Primeiro Livro
         l[1].abrir();
         l[1].folhear(250);
         l[1].avancarPag();
         System.out.println(l[1].detalhes());
         
         System.out.println("-------------------------------------------------");
-        
+        //Operações com os Objetos do Primeiro Livro
         l[2].abrir();
         l[2].folhear(350);
         l[2].avancarPag();
